@@ -1,0 +1,38 @@
+body{background: #EBF6FC}
+
+.form-group{margin-left: 672px;
+margin-right: 292px;}
+h1{margin-left: 400px;}
+h4 {font-size: 20px;
+margin-left: 675px;}
+.radio-inline{margin-left: 672px;
+margin-right: 37px;}
+.text,.gender,.address{margin-left: 672px;
+margin-right: 292px;}
+
+.submit{margin-left:800px; }
+.menu{background: #46629E;}
+.menu ul{list-style: outside none none;
+margin: 0;
+padding: 0;
+margin-left: 595px;}
+.menu ul li{display: inline-block;
+font-family: arial,helvetica,serif;
+font-size: 20px;
+line-height: 17px;
+list-style: outside none none;
+margin: 20px;
+padding-bottom: 5px;
+padding-right: 2px;
+padding-top: 5px;
+text-align: center;
+width: 70px;}
+.menu ul li a{color: #fff;
+font-size: 17px;
+text-decoration: none;
+}
+.menu ul li:hover{background-color: #415A8F}
+.menu ul li:hover a{display: inline-block;color:#fff}
+
+
+die{margin-left: 45px;}

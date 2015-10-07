@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <title>register</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+
+    
+  </head>
+  <body>
+      <div class="header"></div>
+         <div class="menu">
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="register.html">Register</a></li>
+                 <li><a href="login.html">login</a></li>
+                 <li><a href="logout.html">logout</a></li>
+             
+             
+             </ul>
+         
+         
+         </div>
+         <div class="content"></div>
+         <div class="footer"></div>
+         
+        
+         
+      
+      
+      
+      
+      <h1>Register here!!</h1></br>
+      
+    <form method="post" action="register.php">
+        
+   <div class="form-group">
+    <label for="exampleInputName">First name</label>
+    <input type="text" class="form-control" name="firstname" id="exampleInputName" placeholder="First name">
+   </div>
+   <div class="form-group">
+    <label for="exampleInputName">Last name</label>
+    <input type="text" class="form-control" name="lastname" id="exampleInputName" placeholder="Lastname">
+   </div>
+    <div class="form-group">
+    <label for="exampleInputName">username</label>
+    <input type="text" class="form-control" name="username" id="exampleInputName" placeholder="username">
+    </div>
+    <div class="form-group">
+    <label for="exampleInputName">password</label>
+    <input type="password" class="form-control" name="password" id="exampleInputName" placeholder="password">
+    </div>
+    <div class="form-group">
+    <label for="exampleInputName">age</label>
+    <input type="text" class="form-control" name="age" id="exampleInputName" placeholder="Date of birth">
+    </div>        
+        <h4>Contact information:</h4></br> 
+        <label class="radio-inline">
+  <input type="radio" name="contact" id="inlineRadio1" value="phone number" checked="checked"> Phone
+</label>
+
+<label class="radio-inline">
+  <input type="radio" name="contact" id="inlineRadio3" value="Email"> Email
+        </label></br></br>
+<div class="text">
+<input type="text" name="Email" class="form-control" placeholder="Email or phonenumber">
+</div>
+
+<h4>Gender</h4>
+   <div class="gender">
+       
+       <select class="form-control input" type="text"name="sex">
+           <option>Male</option>
+           <option>Female</option>
+           <option>Other</option>
+       
+       </select>
+      
+       
+  
+   
+</div>
+</br></br>
+<h4>Address</h4>
+<div class="address">
+    <textarea class="form-control input" name="contactaddress" rows="4" placeholder="address"></textarea></div></br></br>
+  <div class="submit">
+      <button type="submit" class="btn btn-default">Submit</button></div>
+</form>
+
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
